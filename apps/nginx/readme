@@ -51,7 +51,7 @@ UserParameter=nginx[*],/bin/bash  /etc/zabbix/scripts/nginx_status.sh $1
 7、重启zabbix-agent
 service zabbix-agent restart
 
-8、在server端导入zabbix模板配置文件
+8、在server端web导入zabbix模板配置文件
 
 
 Tpl_NGINX_http_agent.xml
